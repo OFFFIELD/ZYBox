@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.version          = '0.0.1'
   s.summary          = 'ZYBox'
   s.description      = <<-DESC
+    Zhi Da Swift Kit
     DESC
   s.license          = { :type => 'MIT', :text => <<-LICENSE
     MIT
