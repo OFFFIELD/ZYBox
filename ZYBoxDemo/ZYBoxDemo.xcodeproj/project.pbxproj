@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034F24AB2AD90F80002FB0F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F24AA2AD90F80002FB0F3 /* AppDelegate.swift */; };
+		034F24AF2AD90F80002FB0F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F24AE2AD90F80002FB0F3 /* ViewController.swift */; };
+		034F24B22AD90F80002FB0F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034F24B02AD90F80002FB0F3 /* Main.storyboard */; };
+		034F24B42AD90F81002FB0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034F24B32AD90F81002FB0F3 /* Assets.xcassets */; };
+		034F24B72AD90F81002FB0F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034F24B52AD90F81002FB0F3 /* LaunchScreen.storyboard */; };
+		034F24CB2AD90FAE002FB0F3 /* ZYAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F24C12AD90FAE002FB0F3 /* ZYAuth.swift */; };
+		034F24CC2AD90FAE002FB0F3 /* ZYPlaceholderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F24C42AD90FAE002FB0F3 /* ZYPlaceholderBar.swift */; };
+		034F24CD2AD90FAE002FB0F3 /* ZYPlaceholderBar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034F24C52AD90FAE002FB0F3 /* ZYPlaceholderBar.xcassets */; };
+		034F24CE2AD90FAE002FB0F3 /* ZYScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F24C72AD90FAE002FB0F3 /* ZYScreen.swift */; };
+		034F24CF2AD90FAE002FB0F3 /* ZYColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F24C82AD90FAE002FB0F3 /* ZYColor.swift */; };
+		034F24D22AD910D1002FB0F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F24D12AD910D1002FB0F3 /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		034F24A72AD90F80002FB0F3 /* ZYBoxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYBoxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		034F24AA2AD90F80002FB0F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		034F24AE2AD90F80002FB0F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		034F24B12AD90F80002FB0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		034F24B32AD90F81002FB0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		034F24B62AD90F81002FB0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		034F24B82AD90F81002FB0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034F24C12AD90FAE002FB0F3 /* ZYAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYAuth.swift; sourceTree = "<group>"; };
+		034F24C42AD90FAE002FB0F3 /* ZYPlaceholderBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYPlaceholderBar.swift; sourceTree = "<group>"; };
+		034F24C52AD90FAE002FB0F3 /* ZYPlaceholderBar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ZYPlaceholderBar.xcassets; sourceTree = "<group>"; };
+		034F24C72AD90FAE002FB0F3 /* ZYScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYScreen.swift; sourceTree = "<group>"; };
+		034F24C82AD90FAE002FB0F3 /* ZYColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColor.swift; sourceTree = "<group>"; };
+		034F24D12AD910D1002FB0F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		034F24A42AD90F80002FB0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034F249E2AD90F80002FB0F3 = {
+			isa = PBXGroup;
+			children = (
+				034F24BE2AD90FAE002FB0F3 /* ZYBox */,
+				034F24A92AD90F80002FB0F3 /* ZYBoxDemo */,
+				034F24A82AD90F80002FB0F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		034F24A82AD90F80002FB0F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034F24A72AD90F80002FB0F3 /* ZYBoxDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		034F24A92AD90F80002FB0F3 /* ZYBoxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				034F24AA2AD90F80002FB0F3 /* AppDelegate.swift */,
+				034F24AE2AD90F80002FB0F3 /* ViewController.swift */,
+				034F24D12AD910D1002FB0F3 /* SceneDelegate.swift */,
+				034F24B02AD90F80002FB0F3 /* Main.storyboard */,
+				034F24B32AD90F81002FB0F3 /* Assets.xcassets */,
+				034F24B52AD90F81002FB0F3 /* LaunchScreen.storyboard */,
+				034F24B82AD90F81002FB0F3 /* Info.plist */,
+			);
+			path = ZYBoxDemo;
+			sourceTree = "<group>";
+		};
+		034F24BE2AD90FAE002FB0F3 /* ZYBox */ = {
+			isa = PBXGroup;
+			children = (
+				034F24BF2AD90FAE002FB0F3 /* Classes */,
+			);
+			name = ZYBox;
+			path = ../ZYBox;
+			sourceTree = "<group>";
+		};
+		034F24BF2AD90FAE002FB0F3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				034F24C02AD90FAE002FB0F3 /* ZYAuth */,
+				034F24C62AD90FAE002FB0F3 /* ZYExtension */,
+				034F24C32AD90FAE002FB0F3 /* ZYPlaceholderBar */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		034F24C02AD90FAE002FB0F3 /* ZYAuth */ = {
+			isa = PBXGroup;
+			children = (
+				034F24C12AD90FAE002FB0F3 /* ZYAuth.swift */,
+			);
+			path = ZYAuth;
+			sourceTree = "<group>";
+		};
+		034F24C32AD90FAE002FB0F3 /* ZYPlaceholderBar */ = {
+			isa = PBXGroup;
+			children = (
+				034F24C42AD90FAE002FB0F3 /* ZYPlaceholderBar.swift */,
+				034F24C52AD90FAE002FB0F3 /* ZYPlaceholderBar.xcassets */,
+			);
+			path = ZYPlaceholderBar;
+			sourceTree = "<group>";
+		};
+		034F24C62AD90FAE002FB0F3 /* ZYExtension */ = {
+			isa = PBXGroup;
+			children = (
+				034F24C82AD90FAE002FB0F3 /* ZYColor.swift */,
+				034F24C72AD90FAE002FB0F3 /* ZYScreen.swift */,
+			);
+			path = ZYExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		034F24A62AD90F80002FB0F3 /* ZYBoxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034F24BB2AD90F81002FB0F3 /* Build configuration list for PBXNativeTarget "ZYBoxDemo" */;
+			buildPhases = (
+				034F24A32AD90F80002FB0F3 /* Sources */,
+				034F24A42AD90F80002FB0F3 /* Frameworks */,
+				034F24A52AD90F80002FB0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYBoxDemo;
+			productName = ZYBoxDemo;
+			productReference = 034F24A72AD90F80002FB0F3 /* ZYBoxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		034F249F2AD90F80002FB0F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					034F24A62AD90F80002FB0F3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 034F24A22AD90F80002FB0F3 /* Build configuration list for PBXProject "ZYBoxDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 034F249E2AD90F80002FB0F3;
+			productRefGroup = 034F24A82AD90F80002FB0F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				034F24A62AD90F80002FB0F3 /* ZYBoxDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		034F24A52AD90F80002FB0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034F24B72AD90F81002FB0F3 /* LaunchScreen.storyboard in Resources */,
+				034F24B42AD90F81002FB0F3 /* Assets.xcassets in Resources */,
+				034F24B22AD90F80002FB0F3 /* Main.storyboard in Resources */,
+				034F24CD2AD90FAE002FB0F3 /* ZYPlaceholderBar.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		034F24A32AD90F80002FB0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034F24CF2AD90FAE002FB0F3 /* ZYColor.swift in Sources */,
+				034F24AF2AD90F80002FB0F3 /* ViewController.swift in Sources */,
+				034F24AB2AD90F80002FB0F3 /* AppDelegate.swift in Sources */,
+				034F24CC2AD90FAE002FB0F3 /* ZYPlaceholderBar.swift in Sources */,
+				034F24CB2AD90FAE002FB0F3 /* ZYAuth.swift in Sources */,
+				034F24CE2AD90FAE002FB0F3 /* ZYScreen.swift in Sources */,
+				034F24D22AD910D1002FB0F3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		034F24B02AD90F80002FB0F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034F24B12AD90F80002FB0F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		034F24B52AD90F81002FB0F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034F24B62AD90F81002FB0F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		034F24B92AD90F81002FB0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		034F24BA2AD90F81002FB0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		034F24BC2AD90F81002FB0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53FBYE37SL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZYBoxDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptker.ZYBoxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		034F24BD2AD90F81002FB0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53FBYE37SL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZYBoxDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptker.ZYBoxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		034F24A22AD90F80002FB0F3 /* Build configuration list for PBXProject "ZYBoxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034F24B92AD90F81002FB0F3 /* Debug */,
+				034F24BA2AD90F81002FB0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034F24BB2AD90F81002FB0F3 /* Build configuration list for PBXNativeTarget "ZYBoxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034F24BC2AD90F81002FB0F3 /* Debug */,
+				034F24BD2AD90F81002FB0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 034F249F2AD90F80002FB0F3 /* Project object */;
+}
