@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYBox'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'ZYBox'
   s.description      = <<-DESC
     Zhi Da Swift Kit
@@ -27,26 +27,17 @@ Pod::Spec.new do |s|
   # s.resource_bundles = {
   #   'ZYBox' => ['ZYBox/Assets/*.xcassets']
   # }
-
-  #授权
-  s.subspec 'ZYAuth' do |ss|
-      ss.source_files = 'ZYBox/Classes/ZYAuth/*'
+  
+  # 对象
+  s.subspec 'Object' do |ss|
+    ss.resource     = 'ZYBox/Classes/Object/*.xcassets'
+    ss.source_files = 'ZYBox/Classes/Object/*'
   end
   
-  #扩展
-  s.subspec 'ZYObject' do |ss|
-      ss.source_files = 'ZYBox/Classes/ZYObject/*'
+  # 扩展
+  s.subspec 'Extension' do |ss|
+    ss.resource     = 'ZYBox/Classes/Extension/*.xcassets'
+    ss.source_files = 'ZYBox/Classes/Extension/*'
   end
   
-    #扩展
-  s.subspec 'ZYExtension' do |ss|
-      ss.source_files = 'ZYBox/Classes/ZYExtension/*'
-  end
-  
-  #占位符
-  s.subspec 'ZYPlaceholderBar' do |ss|
-      ss.resource     = 'ZYBox/Classes/ZYPlaceholderBar/*.xcassets'
-      ss.source_files = 'ZYBox/Classes/ZYPlaceholderBar/*'
-  end
-
 end
