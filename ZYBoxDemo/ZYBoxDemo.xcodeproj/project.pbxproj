@@ -18,6 +18,7 @@
 		034F24CE2AD90FAE002FB0F3 /* ZYScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F24C72AD90FAE002FB0F3 /* ZYScreen.swift */; };
 		034F24CF2AD90FAE002FB0F3 /* ZYColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F24C82AD90FAE002FB0F3 /* ZYColor.swift */; };
 		034F24D22AD910D1002FB0F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F24D12AD910D1002FB0F3 /* SceneDelegate.swift */; };
+		037F3DA22B32C6B300CDA921 /* ZYPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037F3DA12B32C6B300CDA921 /* ZYPhotos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		034F24C72AD90FAE002FB0F3 /* ZYScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYScreen.swift; sourceTree = "<group>"; };
 		034F24C82AD90FAE002FB0F3 /* ZYColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYColor.swift; sourceTree = "<group>"; };
 		034F24D12AD910D1002FB0F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		037F3DA12B32C6B300CDA921 /* ZYPhotos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYPhotos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				034F24C02AD90FAE002FB0F3 /* ZYAuth */,
+				037F3DA02B32C6A400CDA921 /* ZYObject */,
 				034F24C62AD90FAE002FB0F3 /* ZYExtension */,
 				034F24C32AD90FAE002FB0F3 /* ZYPlaceholderBar */,
 			);
@@ -121,6 +124,14 @@
 				034F24C72AD90FAE002FB0F3 /* ZYScreen.swift */,
 			);
 			path = ZYExtension;
+			sourceTree = "<group>";
+		};
+		037F3DA02B32C6A400CDA921 /* ZYObject */ = {
+			isa = PBXGroup;
+			children = (
+				037F3DA12B32C6B300CDA921 /* ZYPhotos.swift */,
+			);
+			path = ZYObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				034F24CF2AD90FAE002FB0F3 /* ZYColor.swift in Sources */,
+				037F3DA22B32C6B300CDA921 /* ZYPhotos.swift in Sources */,
 				034F24AF2AD90F80002FB0F3 /* ViewController.swift in Sources */,
 				034F24AB2AD90F80002FB0F3 /* AppDelegate.swift in Sources */,
 				034F24CC2AD90FAE002FB0F3 /* ZYPlaceholderBar.swift in Sources */,

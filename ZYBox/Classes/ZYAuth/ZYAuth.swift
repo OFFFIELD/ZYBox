@@ -301,7 +301,7 @@ public class ZYAuth: NSObject {
             switch authorizationStatus {
             case .notDetermined:
                 if isRequest {
-                    PHPhotoLibrary.requestAuthorization(for: .readWrite) { _ in
+                    PHPhotoLibrary.requestAuthorization(for: .addOnly) { _ in
                         photoLibraryAddUsage(completionHandler: handler)
                     }
                 } else {

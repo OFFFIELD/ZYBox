@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYBox'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'ZYBox'
   s.description      = <<-DESC
     Zhi Da Swift Kit
@@ -34,6 +34,11 @@ Pod::Spec.new do |s|
   end
   
   #扩展
+  s.subspec 'ZYObject' do |ss|
+      ss.source_files = 'ZYBox/Classes/ZYObject/*'
+  end
+  
+    #扩展
   s.subspec 'ZYExtension' do |ss|
       ss.source_files = 'ZYBox/Classes/ZYExtension/*'
   end
