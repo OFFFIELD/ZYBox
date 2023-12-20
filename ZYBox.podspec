@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYBox'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'ZYBox'
   s.description      = <<-DESC
     Zhi Da Swift Kit
