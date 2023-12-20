@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYBox'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'ZYBox'
   s.description      = <<-DESC
     Zhi Da Swift Kit
@@ -28,16 +28,9 @@ Pod::Spec.new do |s|
   #   'ZYBox' => ['ZYBox/Assets/*.xcassets']
   # }
   
-  # 对象
-  s.subspec 'Object' do |ss|
-    ss.resource     = 'ZYBox/Classes/Object/*.xcassets'
-    ss.source_files = 'ZYBox/Classes/Object/*'
-  end
-  
-  # 扩展
-  s.subspec 'Extension' do |ss|
-    ss.resource     = 'ZYBox/Classes/Extension/*.xcassets'
-    ss.source_files = 'ZYBox/Classes/Extension/*'
+  s.subspec 'ZYObject' do |ss|
+    ss.resource     = 'ZYBox/Classes/ZYObject/*.xcassets'
+    ss.source_files = 'ZYBox/Classes/ZYObject/*'
   end
   
 end
